@@ -108,6 +108,10 @@ table {
   font-size: 1.688em;
 }
 
+.fontsize3-75{
+  font-size: 3.75em;
+}
+
 .uppercase{/*convierte el texto a mayusculas*/
   text-transform: uppercase;
 }
@@ -182,21 +186,31 @@ header nav ul li a:hover{
 }
 
 .btSlider{
-  border: 0.0001em solid;
-  padding: 0.5em 1em;
+  border: 0.0001em solid #fff;
+  display: inline-block;
+  padding: 0.75em 1.5em; 
+  color: #fff;
+  margin-top: 2em; 
+  
 }
 
 .btSlider:hover{
   background-color: #fff;
   color: black;
-  border: #fff;
+  border: 0.0001em solid #fff;
 }
+
+.star {
+  font-size: 1.2em;
+  color: #E4A853;
+  font-variation-settings: 'FILL' 1;
+}
+
 
 /*<!--Enjoy a Luxury Experience-->*/
 .enjoy1{
   align-self: flex-end;
   margin-right: 2em;
- 
 }
 
 .enjoy2{
@@ -367,10 +381,6 @@ header nav ul li a:hover{
   width: 33.5%;
 }
 
-.w70{
-  width: 45%;
-}
-
 .lineaBooking{
   margin: 1em 0em 0.5em 0em;
   opacity: 0.1;
@@ -428,10 +438,6 @@ margin-top: 1em;
   line-height: 3em;
 }
 
-.lineHeight6{
-  line-height: 6em;
-}
-
 .lineHeight1-8{
   line-height: 1.8em;
 }
@@ -468,6 +474,10 @@ margin-top: 1em;
   margin-right: 0.5em;
 }
 
+.mt-0-5 {
+  margin-top: 0.5em;
+}
+
 .margin-right0-9 {
   margin-right: 0.9em;
 }
@@ -482,6 +492,10 @@ margin-top: 1em;
 
 .margin-left5 {
   margin-left: 5em;
+}
+
+.mt-6{
+  margin-top: 6px;
 }
 
 .margin-left10 {
@@ -697,7 +711,7 @@ a:-webkit-any-link {
   width: 70%;
 }
 
-.w90{
+.w95{
   width: 95%;
 }
 
@@ -768,10 +782,6 @@ a:-webkit-any-link {
   background-size: cover;
   background-position: center;
   padding-bottom:23em;
-}
-
-.fontsize3-75{
-  font-size: 3.75em;
 }
 
 .positionAb{
